@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Maria Lociones</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+</head>
+<body>
+  
+<header>
+  <div class="menu">
+
+<nav>
+ <ul>
+  <li><a href="../Maria lociones/index.html">Inicio</a></li>
+  <li><a href="../Maria lociones/mujer.html">Perfume Mujer</a></li>
+  <li><a href="../Maria lociones/hombre.html">Perfume Hombre</a></li>
+  <li><a href="../Maria lociones/cuidado.html">Cuidado Personal</a></li>
+  <li><a href="../Maria lociones/ninos.html">Niños</a></li>
+  <li><a href="../Maria lociones/ordenar.html">Promociones</a></li>
+ </ul>
+</nav>
+
+  </div>
+
+  <nav class="navbar navbar-light bg-light">
+    <div class="container-fluid">
+      <form class="d-flex">
+        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success" type="submit">Search</button>
+      </form>
+    </div>
+  </nav>
+</header>
+
+<div class="nombre">
+  <img src="../Maria lociones/Img/nombre empresa.png" alt="">
+ </div>
+
+ <div class="logocarro">
+  <a href="../Maria lociones/carrito.html"> 
+    <img src="../Maria lociones/Img/carritoboton.png" alt="">
+    <button type="button" class="btn btn-danger">Carrito de compras</button>
+  </a> 
+  </div>
+
+  <br>
+  <br>
+
+
+
+
+
+
+<div class="checkout-container">
+  <h1>Verificación y pagos</h1>
+  <form id="checkout-form">
+    <!-- Personal Information -->
+    <fieldset>
+      <legend>Información personal</legend>
+      <label for="fullname">Nombre completo:</label>
+      <input type="text" id="fullname" name="fullname" required>
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required>
+
+      <label for="phone">Número telefónico:</label>
+      <input type="tel" id="phone" name="phone" required>
+    </fieldset>
+
+    <!-- Shipping Address -->
+    <fieldset>
+      <legend>Dirección de envío</legend>
+      <label for="address">Dirección:</label>
+      <input type="text" id="address" name="address" required>
+
+      <label for="city">Ciudad:</label>
+      <input type="text" id="city" name="city" required>
+
+      <label for="state">Departamento:</label>
+      <input type="text" id="state" name="state" required>
+
+      <label for="zip">Código postal:</label>
+      <input type="text" id="zip" name="zip" required>
+
+      <label for="country">País:</label>
+      <select id="country" name="country" required>
+        <option value="us">Colombia</option>
+        <option value="ca">Canada</option>
+        <option value="uk">United Kingdom</option>
+        <option value="au">Australia</option>
+        <!-- Add more countries as needed -->
+      </select>
+    </fieldset>
+
+    <!-- Payment Information -->
+    <fieldset>
+      <legend>Información del pago</legend>
+      <label for="cardname">Nombre de la tarjeta:</label>
+      <input type="text" id="cardname" name="cardname" required>
+
+      <label for="cardnumber">Número de la tarjeta:</label>
+      <input type="text" id="cardnumber" name="cardnumber" required>
+
+      <label for="expiry">Fecha de expiración:</label>
+      <input type="month" id="expiry" name="expiry" required>
+
+      <label for="cvv">CVV:</label>
+      <input type="text" id="cvv" name="cvv" required>
+
+      <label for="payment-method">Método de pago:</label>
+      <select id="payment-method" name="payment-method" required>
+        <option value="credit">Tarjeta de crédito</option>
+        <option value="debit">Tarjeta de débito</option>
+        <option value="paypal">PayPal</option>
+      </select>
+    </fieldset>
+
+    <!-- Submit Button -->
+    <button type="submit" class="submit-btn">Realizar pedido</button>
+  </form>
+</div>
+
+<br>
+<br>
+  
+
+
+
+<!-- incono carrito de compras-->
+<a href="../Maria lociones/carrito.html">
+  <button class="cart-button"> 
+    <i class="fas fa-shopping-cart"></i>
+  </button>
+</a>
+
+
+
+  
+<footer class="footer">
+
+  <div class="container-footer">
+    <div class="footer-row">
+
+
+      <div class="footer-links">
+        <h4>Compañía</h4>
+        <ul>
+          <li> <a href="../Maria lociones/nosotros.html">Nosotros</a></li>
+          <li> <a href="../Maria lociones/politica.html">Política de privacidad</a></li>
+          <li> <a href="../Maria lociones/registrarse.html">Registrarse</a></li>
+        </ul>
+
+      </div>
+
+      <div class="footer-links">
+        <h4>Ayuda</h4>
+        <ul>
+          <li> <a href="../Maria lociones/preguntas.html">Preguntas</a></li>
+          <li> <a href="../Maria lociones/envios.html">Envíos</a></li>
+          <li> <a href="../Maria lociones/terminos.html">Términos y Condiciones</a></li>
+          <li> <a href="../Maria lociones/formas.html">Formas de pago</a></li>
+        </ul>
+
+      </div>
+
+
+      <div class="footer-links">
+        <h4>Mi cuenta</h4>
+        <ul>
+          <li> <a href="../Maria lociones/iniciarsesion.html">Iniciar sesión</a></li>
+          <li> <a href="../Maria lociones/registro.html">Registrarse</a></li>
+          <li> <a href="../Maria lociones/contacto.html">Contacto</a></li>
+        </ul>
+
+      </div>
+
+      <div class="footer-links">
+        <h4>Síguemos</h4>
+        <div class="social-link">
+          <a href="https://www.facebook.com/"><i class="fab fa-facebook-f"></i></a>
+          <a href="https://www.instagram.com/"><i class="fab fa-instagram"></i></a>
+          <a href="https://www.linkedin.com/"><i class="fab fa-linkedin"></i></a>
+          
+
+        </div>
+        
+
+      </div>
+
+    </div>
+
+
+  </div>
+
+
+</footer>
+ 
+
+
+  
+
+
+
+</body>
+</html>
